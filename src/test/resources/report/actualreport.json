@@ -1,0 +1,233 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 16,
+        "name": "Normal booking",
+        "description": "",
+        "id": "adactin-hotel-normal-booking;normal-booking;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14610197900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User on the adactin page \"https://adactinhotelapp.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://adactinhotelapp.com\"",
+                  "offset": 25
+                }
+              ],
+              "location": "TestDefenitionClass.user_on_the_adactin_page(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1673745100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User login with valid credentials \"Suganesh\",\"Sugan@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Suganesh\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"Sugan@123\"",
+                  "offset": 45
+                }
+              ],
+              "location": "TestDefenitionClass.user_login_with_valid_credentials(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 261100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should verify page navigate to \"Search Hotel \"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Search Hotel \"",
+                  "offset": 36
+                }
+              ],
+              "location": "TestDefenitionClass.user_should_verify_page_navigate_to(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3974427600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User fill the field on searchotel page \"2\",\"3\",\"3\",\"2\",\"12/08/2021\",\"13/08/2021\",\"2\",\"1\",and click searchbutton",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"3\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"3\"",
+                  "offset": 47
+                },
+                {
+                  "val": "\"2\"",
+                  "offset": 51
+                },
+                {
+                  "val": "\"12/08/2021\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"13/08/2021\"",
+                  "offset": 68
+                },
+                {
+                  "val": "\"2\"",
+                  "offset": 81
+                },
+                {
+                  "val": "\"1\"",
+                  "offset": 85
+                }
+              ],
+              "location": "TestDefenitionClass.user_fill_the_field_on_searchotel_page_and_click_searchbutton(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 554100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Validate page navigate to \"Select Hotel \"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Select Hotel \"",
+                  "offset": 26
+                }
+              ],
+              "location": "TestDefenitionClass.validate_page_navigate_to(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3154337300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should conform and continue",
+            "match": {
+              "location": "TestDefenitionClass.user_should_conform_and_continue()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 188400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user conform page navigate to \"Book A Hotel \"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Book A Hotel \"",
+                  "offset": 30
+                }
+              ],
+              "location": "TestDefenitionClass.user_conform_page_navigate_to(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2839833000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enter book noe page field \"kavi\",\"raj\",\"chennai\",\"1234567890123456\",\"2\",\"10\",\"11\",\"1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kavi\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"raj\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"chennai\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"1234567890123456\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"2\"",
+                  "offset": 73
+                },
+                {
+                  "val": "\"10\"",
+                  "offset": 77
+                },
+                {
+                  "val": "\"11\"",
+                  "offset": 82
+                },
+                {
+                  "val": "\"1234\"",
+                  "offset": 87
+                }
+              ],
+              "location": "TestDefenitionClass.user_enter_book_noe_page_field(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 56627600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User get the order id",
+            "match": {
+              "location": "TestDefenitionClass.user_get_the_order_id()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Adactin Hotel Normal Booking",
+    "description": "",
+    "id": "adactin-hotel-normal-booking",
+    "keyword": "Feature",
+    "uri": "src/test/resources/FeatureFile/featurefile1.feature",
+    "tags": []
+  }
+]
