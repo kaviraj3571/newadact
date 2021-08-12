@@ -97,7 +97,7 @@ public class TestDefenitionClass extends BaseClass {
 		PageFactory.initElements(driver, OrderIdPage.class);
 
 		OrderIdPage.getOrderid();
-
+System.out.println("finish");
 
 
 
